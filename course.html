@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/vikasact.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Quality Education for a Brighter Tomorrow</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Sainik School(AISSEE)</h3>
+                <p><b>Eligibility for admission:</b> Class 6 <br><b>Min:</b>13 years <b>Max:</b>15 years<br>Must have passed Class 5 or be studying in Class 5 <br><b>Eligibility for admission:</b>    Class 9 <br> Must have passed Class 8 or be studying in Class 8           </div>
+            <div class="course-col">
+                <h3>Rashtriya indian military School<br>(RIMS & RMS)</h3>
+                <p><b>Eligibility for admission:</b> Class 8 <br><b>Min:</b>11.5 years <b>Max:</b>13 years<br>Must have passed Class 7 or be studying in Class 7 <br><b>Eligibility for admission:</b>    Class 6 and Class 9 <br> Must have passed Class 8 or be studying in Class 8</p>
+            </div>
+            <div class="course-col">
+                <h3>Navodaya(JNVST)</h3>
+                <p><b>Eligibility for admission:</b> Class 6 <br><b>Min:</b>13 years <b>Max:</b>15 years<br>Must have passed Class 5 or be studying in Class 5 <br><b>Eligibility for admission:</b>    Class 9 <br> Must have passed Class 8 or be studying in Class 8	</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+    <h1>Our Facilities</h1>
+    <p>Shaping Minds with Knowledge and Play</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="images/library.png">
+            <h3>Library</h3>
+            <p>Our library is equipped with a vast collection of books and learning materials that cater to various educational needs.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>The largest play ground offers ample space for outdoor activities like football, basketball, and athletics.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>We prioritize hygiene and nutrition to support the overall well-being of our students.</p>
+                </div>
+<div class="facility-col">
+                    <img src="images/yoga.jpg">
+                    <h3>Yoga and Meditation</h3>
+                    <p>We prioritize hygiene and nutrition to support the overall well-being of our students.</p>
+                </div>
+<div class="facility-col">
+                    <img src="images/ac.jpg">
+                    <h3>Comfortable Air-Conditioned Classrooms</h3>
+                    <p>Our air-conditioned classrooms provide a comfortable learning environment, especially during warmer months.</p>
+<div class="facility-col">
+                    <img src="images/carrom.jpg">
+                    <h3>Indoor Games and Recreation</h3>
+                    <p>We offer indoor games such as carrom, chess, and badminton to enhance cognitive skills and teamwork.</p>
+
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
